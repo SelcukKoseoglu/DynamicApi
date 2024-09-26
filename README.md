@@ -36,8 +36,8 @@ Docker Compose ile projeyi çalıştırmak için aşağıdaki adımları izleyin
 
 1. Proje kök dizinine gidin.
 2. Şu komutu çalıştırın:
-- docker-compose up -d --build
-- API, http://localhost:4552 adresinden erişilebilir olacaktır.
+   ```bash
+   docker-compose up -d --build
 
 
 ## API Kullanımı
@@ -52,8 +52,8 @@ Docker Compose ile projeyi çalıştırmak için aşağıdaki adımları izleyin
     "price": 1000.00,
     "quantity": 2
   }
-}```
-
+}
+```
 
 ### Transaction oluşturma
 **Endpoint:** `POST /api/Object/createTransaction`  
@@ -78,7 +78,7 @@ Docker Compose ile projeyi çalıştırmak için aşağıdaki adımları izleyin
     }
   ]
 }
-
+```
 ### Veri çekme
 **Endpoint:** `GET /api/Object/{type}/{id}`
 
