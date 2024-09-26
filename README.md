@@ -52,7 +52,7 @@ Docker Compose ile projeyi çalıştırmak için aşağıdaki adımları izleyin
     "price": 1000.00,
     "quantity": 2
   }
-}
+}```
 
 
 ### Transaction oluşturma
