@@ -1,0 +1,8 @@
+services:
+  web:
+    image: dynamic-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4552:4552"
